@@ -213,6 +213,9 @@ dialog --infobox "Installing (neo)vim plugins..." 4 50
 (sleep 30 && killall nvim) &
 sudo -u "$name" nvim -E -c "PlugUpdate|visual|q|q" >/dev/null 2>&1
 
+#install utf-8 encoding
+localedef -v -c -i en_US -f UTF-8 en_US.UTF-8 
+
 # Enable services here.
 serviceinit NetworkManager cronie
 
