@@ -130,3 +130,6 @@ A,ttf-ms-fonts,MS fonts
 ,libreoffice-still, Libre office
 ,transmission-cli, torrent tool terminal
 ,zip, zip tool
+,noto-fonts-emoji,is an emoji font
+V,font-symbola,provides unicode and emoji symbols.
+,yarn, package maneger for node
